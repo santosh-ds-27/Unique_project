@@ -1,0 +1,29 @@
+/* Mobile */
+@media (max-width: 768px) {
+    .forum-regular {
+    font-size: 20px;
+ 
+}
+
+.second-s {
+  flex-direction: column;
+
+}
+.second-header{
+    padding: 20px;
+    margin-top: 0px;
+}
+.para{
+   font-size: 16px;
+}
+.secton-3{
+    flex-direction: column;
+}
+.media-h2{
+    text-align: left;
+}
+.media-p{
+    text-align: left;
+    font-size: 16px;
+}
+}
