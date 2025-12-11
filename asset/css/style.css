@@ -1,0 +1,144 @@
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px 60px 0;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* dark overlay */
+  z-index: -1;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #f33;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.second-header {
+    padding: 20px;
+}
+
+.forum-regular {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 0px;
+
+}
+
+.center-text {
+    text-align: center;
+}
+
+.second-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.second-s .card {
+    width: 18rem;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-s .card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.second-s .card-body {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.second-bg {
+    background-color: #f8f3ec;
+    background-size: cover;
+    background-position: center;
+}
+
+.para {
+    width: 100%;
+}
+
+.learn-btn {
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s ease;
+}
+
+.learn-btn:hover {
+    background: #333;
+    transform: translateX(3px);
+}
+
+.secton-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-h5 {
+    color: #935C10;
+    font-size: 24px;
+
+
+}
